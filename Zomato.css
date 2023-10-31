@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* navbar begins */
+
+.navbar{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    width: 100%;
+    height: 400px;
+}
+.navbar nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+}
+.navbar .header{
+    display: flex;
+}
+ .navbar p{     /*navbarnite akathu ulla p */
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+.navbar .logo{   /*navbarnite akathu ulla logo */
+    text-align: center;
+}
+.navbar .logo img{
+    width: 42%;
+    margin-top: 66px;
+}
+.navbar .search{
+    text-align: center;
+}
+.navbar .text{
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.navbar .search input{
+    width: 600px;
+    height: 10px;
+    font-size: 19px;
+    padding: 22px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 22px;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* navbar close */
+
+/* Collection Part */
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.card .crd img{
+    width: 320px;
+    height: 220px;
+    border-radius: 6px;
+    margin-top: 55px;
+}
+.collection .txt{
+    margin-left: 34px;
+    margin-top: 64px;
+    padding: 33px;
+}
+.collection .img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.rest{
+    margin-left: 30px;
+}
+.rest img{
+    width: 24%;
+    border-radius: 7px;
+    /* margin-left: 5px; */
+}
+/* Get the Zomato app */
+
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(236, 215, 218);
+    margin-top: 66px;
+}
+.app img{
+    width: 37%;
+}
+.app h1{
+    margin-top: 12%;
+    font-size: 50px;
+    padding-right: 20px;
+    
+}
+.playstore{
+    width: 700px;
+    padding-top: 20%;
+    padding-left: 77%;
+    position: absolute;
+}
+
+/* Explore options near me */
+
+.btn h1{
+    margin-left: 44px;
+    margin-top: 44px;
+    padding: 33px;
+    
+} 
+.btn button{
+    width: 900px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-left: 20%;
+    font-size: 22px;
+    
+}
+/* About Zomato */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(231, 228, 228);
+    margin-top: 44px;
+    padding: 44px;
+}
+.footer .list p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
